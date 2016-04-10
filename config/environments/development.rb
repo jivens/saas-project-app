@@ -12,6 +12,10 @@ Rails.application.configure do
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
+  
+  # Setup development mailer so that mail does not go to the actual email address for heroku
+  config.action_mailer.delivery_method = :test
+  config.action_mailer.default_url_options = { :host => 'ruby-development-jivens.c9users.io', :protocol => 'https' }
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false

@@ -12,5 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+// REMOVE turbolinks  (notice the line below has no equals sign)
+// require turbolinks
 //= require_tree .
