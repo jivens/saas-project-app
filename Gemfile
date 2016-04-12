@@ -29,6 +29,12 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# Use Bootstrap for web page styling
+gem 'twitter-bootstrap-rails'
+
+# Use Bootstrap styling for devise (authentication) views
+gem 'devise-bootstrap-views'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
